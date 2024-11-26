@@ -1,5 +1,4 @@
 "use strict";
-function HelloMessage(message) {
-  console.log(`Hello ${message}`);
-}
-HelloMessage("Auth Service");
+Object.defineProperty(exports, "__esModule", { value: true });
+const config_1 = require("./config");
+console.log(config_1.Config.PORT);
